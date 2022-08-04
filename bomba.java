@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class bomba extends Actor
 {
     public int golpes = 0;
-    //homalkfjdsalkf jkdslafjlsadjflsdjflkdsj
+    MiMundo mundo;
     /**
      * Act - do whatever the bomba wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -22,6 +22,7 @@ public class bomba extends Actor
         {
             Greenfoot.playSound("bomb.wav");
             getWorld().removeObject(this);
+            mundo.puntos = mundo.puntos - 4;
         }
     }
     

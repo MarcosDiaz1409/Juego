@@ -53,6 +53,13 @@ public static int puntos = 0;
         }
         
         showText("Puntaje: " + puntos, 100, 30);
+        
+        if (puntos == 200)
+        {
+            removeObjects(getObjects(null));
+            Greenfoot.stop();
+            addObject(new Completado(), getWidth()/2, getHeight()/2);
+        }
     }
     
     /**
