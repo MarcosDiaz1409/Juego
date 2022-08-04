@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class bomba extends Actor
 {
     public int golpes = 0;
+    //homalkfjdsalkf jkdslafjlsadjflsdjflkdsj
     /**
      * Act - do whatever the bomba wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
