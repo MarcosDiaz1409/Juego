@@ -54,7 +54,7 @@ public static int puntos = 0;
         
         showText("Puntaje: " + puntos, 100, 30);
         
-        if (puntos == 200)
+        if (puntos >= 150)
         {
             removeObjects(getObjects(null));
             Greenfoot.stop();

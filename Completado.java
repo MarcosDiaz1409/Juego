@@ -14,6 +14,6 @@ public class Completado extends Actor
      */
     public void act()
     {
-        setImage(new GreenfootImage("Game Over", 48, Color.WHITE, Color.BLACK));
+        setImage(new GreenfootImage("Has ganado!!", 48, Color.WHITE, Color.BLACK));
     }
 }
